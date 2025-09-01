@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="font-primary text-quinary scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Consultoria, treinamentos e laudos em Segurança do Trabalho em Chapadão do Sul-MS. Especialista em SST, NRs, certificações e eSocial."
+    />
+    <link
+      rel="shortcut icon"
+      href="./assets/icon-protena.png"
+      type="image/x-icon"
+    />
+    <link href="./styles/output.css" rel="stylesheet" />
+    <title>Protena | Segurança do Trabalho</title>
+  </head>
+  <body class="bg-bg">
+    <header
+      id="header"
+      class="font-secondary w-full fixed z-50 bg-[#f5f7faee] backdrop-blur-sm"
+    >
+      <div
+        class="max-w-screen-xl mx-auto my-0 h-20 px-4 flex items-center justify-between"
+      >
+        <a href="/">
+          <img
+            class="block w-60"
+            src="./assets/logotipo-protena.png"
+            alt="Logotipo da empresa Protena"
+          />
+        </a>
+        <nav>
+          <ul class="flex items-center gap-6">
+            <li class="hidden md:block">
+              <a
+                class="relative menu-link navItem text-sm py-2 px-4"
+                href="#sobre-nos"
+                >Sobre nós</a
+              >
+            </li>
+            <li class="hidden sm:block">
+              <a
+                class="relative menu-link navItem text-sm py-2 px-4"
+                href="#servicos"
+                >Serviços</a
+              >
+            </li>
+            <li class="hidden md:block">
+              <a
+                class="relative menu-link navItem text-sm py-2 px-4"
+                href="#clientes"
+                >Clientes</a
+              >
+            </li>
+            <li class="hidden sm:block">
+              <a
+                class="relative border-[1.5px] border-secondary rounded-lg hover:bg-tertiary hover:shadow-md hover:shadow-[#c9caff] hover:border-quaternary hover:text-secondary transition-all duration-200 navItem font-semibold text-sm py-2 px-4"
+                href="https://wa.me/5567999215376?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Protena%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento."
+                target="_blank"
+                >Orçamento</a
+              >
+            </li>
+            <li class="block ml-2 md:hidden">
+              <input
+                type="checkbox"
+                id="checkbox"
+                aria-label="Abrir menu de navegação"
+              />
+              <label for="checkbox" class="toggle">
+                <div class="bars" id="bar1"></div>
+                <div class="bars" id="bar2"></div>
+                <div class="bars" id="bar3"></div>
+              </label>
+            </li>
+          </ul>
+          <ul
+            id="listMobile"
+            class="absolute bg-[#f5f7faee] backdrop-blur-sm w-full shadow-lg top-20 pt-5 pb-10 right-0 z-50 flex flex-col items-center justify-center gap-6 transition-all duration-500 translate-x-full opacity-0"
+          >
+            <li class="block md:hidden">
+              <a class="relative menu-link text-sm py-2 px-4" href="#sobre-nos"
+                >Sobre nós</a
+              >
+            </li>
+            <li class="block sm:hidden">
+              <a class="relative menu-link text-sm py-2 px-4" href="#servicos"
+                >Serviços</a
+              >
+            </li>
+            <li class="block md:hidden">
+              <a class="relative menu-link text-sm py-2 px-4" href="#clientes"
+                >Clientes</a
+              >
+            </li>
+            <li class="block sm:hidden">
+              <a
+                class="relative menu-link font-semibold text-sm py-2 px-4"
+                href="https://wa.me/5567999215376?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Protena%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento."
+                target="_blank"
+                >Orçamento</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="hero" class="relative top-20 py-24 xl:pt-30 xl:pb-36 px-4">
+        <div
+          class="flex flex-col justify-center max-w-screen-xl mx-auto xl:pl-20"
+        >
+          <h1
+            class="font-secondary font-bold leading-[1.2] text-primary text-4xl max-w-[30rem] mb-3"
+          >
+            Segurança do Trabalho com qualidade, eficiência & confiança
+          </h1>
+          <h3 class="text-tertiary font-medium mb-6 max-w-[30rem]">
+            Consultoria, treinamentos e certificações em SST para empresas e
+            produtores rurais de Chapadão do Sul e região
+          </h3>
+          <a
+            href="https://wa.me/5567999215376?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Protena%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento."
+            class="w-fit font-secondary font-bold text-tertiary bg-secondary hover:bg-[#12158eaa] hover:shadow-xl transition-all px-6 py-3 rounded-xl shadow-md"
+            target="_blank"
+            >Solicitar orçamento</a
+          >
+        </div>
+      </section>
+      <section
+        class="relative max-w-screen-xl px-4 pt-40 mx-auto flex flex-col sm:flex-row justify-center items-center gap-4 md:gap-10"
+      >
+        <img
+          class="w-[200px] h-[200px] rounded-2xl shadow-xl"
+          src="./assets/img-fundo-hero.jpg"
+          alt="Foto da fundadora da Protena, chamada Millena Fernandes"
+        />
+        <div class="sm:w-fit md:max-w-1/2 text-center sm:text-start">
+          <h4 class="font-medium text-xl">Millena Fernandes</h4>
+          <h5 class="font-light text-sm -mt-1 mb-2">Fundadora da Protena</h5>
+          <p class="leading-[1.3]">
+            Há mais de 9 anos atuando na área, e muitas especializações, Millena
+            já ajudou empresas e produtores rurais de Chapadão do Sul e região a
+            conquistarem mais segurança, conformidade legal e tranquilidade no
+            dia a dia. Reconhecida pela experiência e atenção aos detalhes, ela
+            lidera cada projeto de forma próxima, garantindo resultados de
+            excelência para cada cliente.
+          </p>
+        </div>
+      </section>
+      <section id="sobre-nos" class="pt-20">
+        <div class="relative bg-tertiary">
+          <div
+            class="max-w-screen-xmd mx-auto py-24 md:pt-12 md:pb-14 px-4 lg:px-0 flex items-center gap-16"
+          >
+            <div>
+              <h2
+                class="font-bold text-3xl font-secondary text-quaternary mb-4"
+              >
+                Sobre nós
+              </h2>
+              <p class="leading-[1.3] mb-3">
+                Atuamos com consultoria, treinamentos especializados e emissão
+                de laudos técnicos, cobrindo as principais Normas
+                Regulamentadoras e certificações do setor. Nosso trabalho vai
+                além da conformidade: buscamos garantir segurança, produtividade
+                e tranquilidade para nossos clientes.
+              </p>
+              <p class="leading-[1.3]">
+                Com sede em Chapadão do Sul – MS, atendemos empresas de
+                diferentes portes e áreas de atuação, sempre com o mesmo
+                compromisso: entregar excelência e resultados concretos.
+              </p>
+            </div>
+            <img
+              class="hidden md:block rounded-3xl shadow-xl"
+              src="./assets/img-sobre-nos.jpg"
+            />
+          </div>
+        </div>
+      </section>
+      <section id="servicos" class="relative pt-20">
+        <div class="max-w-screen-xmd px-2 lg:px-0 mx-auto flex flex-col gap-5">
+          <h2 class="font-secondary font-bold text-3xl text-primary ml-12 mb-4">
+            Nossos Serviços
+          </h2>
+          <div
+            class="servico px-8 sm:px-12 py-3 rounded-xl sm:rounded-3xl shadow-xl text-shadow-xs"
+            data-img="1"
+          >
+            <h4 class="font-medium text-xl">Consultoria e assessoria em SST</h4>
+            <h5 class="font-light">
+              Orientações técnicas e soluções personalizadas
+            </h5>
+          </div>
+          <div
+            class="servico px-8 sm:px-12 py-3 rounded-xl sm:rounded-3xl shadow-xl text-shadow-xs"
+            data-img="2"
+          >
+            <h4 class="font-medium text-xl">Treinamentos de NRs</h4>
+            <h5 class="font-light">
+              NR 1, NR 6, NR 10, NR 23, NR 31, NR 33 e NR 35
+            </h5>
+          </div>
+          <div
+            class="servico px-8 sm:px-12 py-3 rounded-xl sm:rounded-3xl shadow-xl text-shadow-xs"
+            data-img="3"
+          >
+            <h4 class="font-medium text-xl">
+              Primeiros Socorros & Brigada de Incêndio
+            </h4>
+            <h5 class="font-light">Capacitação prática e certificada</h5>
+          </div>
+          <div
+            class="servico px-8 sm:px-12 py-3 rounded-xl sm:rounded-3xl shadow-xl text-shadow-xs"
+            data-img="4"
+          >
+            <h4 class="font-medium text-xl">Documentos e Laudos Técnicos</h4>
+            <h5 class="font-light">
+              PGR, PGRTR, PCMSO, LTCAT, PPP, Laudos de Periculosidade e
+              Insalubridade
+            </h5>
+          </div>
+          <div
+            class="servico px-8 sm:px-12 py-3 rounded-xl sm:rounded-3xl shadow-xl text-shadow-xs"
+            data-img="5"
+          >
+            <h4 class="font-medium text-xl">Certificações RTRS e ABR</h4>
+            <h5 class="font-light">
+              Round Table on Responsible Soy e Algodão Brasileiro Responsável
+            </h5>
+          </div>
+          <div
+            class="servico px-8 sm:px-12 py-3 rounded-xl sm:rounded-3xl shadow-xl text-shadow-xs"
+            data-img="6"
+          >
+            <h4 class="font-medium text-xl">Gestão SST no eSocial</h4>
+            <h5 class="font-extralight">
+              Acompanhamento e registro dos eventos obrigatórios
+            </h5>
+          </div>
+        </div>
+      </section>
+      <section
+        id="clientes"
+        class="text-center flex flex-col items-center justify-center px-2 pt-20 lg:px-0"
+      >
+        <h2 class="font-bold font-secondary text-quaternary text-3xl">
+          Principais clientes
+        </h2>
+        <h3 class="font-extralight mb-7">
+          Empresas que já confiam na nossa experiência
+        </h3>
+        <div
+          class="bg-tertiary px-5 sm:px-12 py-5 flex justify-center gap-6 rounded-3xl flex-wrap"
+        >
+          <img
+            class="w-[5.25rem] rounded-xl"
+            src="./assets/logotipo-azendas-indaia.jpg"
+            alt="Logotipo Fazendas Indaiá"
+          />
+          <img
+            class="w-[5.25rem] rounded-xl"
+            src="./assets/logotipo-toledo.jpg"
+            alt="Logotipo Toledo Autopeças"
+          />
+          <img
+            class="w-[5.25rem] rounded-xl"
+            src="./assets/logotipo-cacil-cotton.jpg"
+            alt="Logotipo Cacil Cotton Comercial Agrícola"
+          />
+          <img
+            class="w-[5.25rem] rounded-xl"
+            src="./assets/logotipo-fininmec.jpg"
+            alt="Logotipo FininMec"
+          />
+          <img
+            class="w-[5.25rem] rounded-xl"
+            src="./assets/logotipo-hidroeletrica-lageado.jpg"
+            alt="Logotipo Hidroelétrica Lageado"
+          />
+          <img
+            class="w-[5.25rem] rounded-xl"
+            src="./assets/logotipo-hidroeletrica-corrego.jpg"
+            alt="Logotipo Hidroelétrica Córrego"
+          />
+          <img
+            class="w-[5.25rem] rounded-xl"
+            src="./assets/logotipo-hidroeletrica-chapadao.jpg"
+            alt="Logotipo Hidroelétrica Chapadão"
+          />
+        </div>
+      </section>
+      <section
+        class="flex items-center justify-center gap-6 md:gap-12 px-4 mt-20 lg:px-0"
+      >
+        <img
+          class="hidden sm:block rounded-3xl shadow-xl"
+          src="./assets/img-cta.jpg"
+        />
+        <div class="flex flex-col text-center sm:text-start">
+          <h2
+            class="font-secondary font-bold leading-[1.2] text-primary text-3xl max-w-[38rem] mb-2"
+          >
+            Garanta a segurança, a conformidade e a tranquilidade da sua empresa
+          </h2>
+          <h3 class="text-quaternary mb-6">
+            Entre em contato agora e fale com um especialista
+          </h3>
+          <a
+            href="https://wa.me/5567999215376?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Protena%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es."
+            class="mx-auto sm:mx-0 w-fit font-secondary font-bold text-tertiary bg-secondary hover:bg-[#12158eaa] hover:shadow-xl transition-all px-6 py-3 rounded-xl shadow-md"
+            target="_blank"
+            >Clique para chamar no WhatsApp</a
+          >
+        </div>
+      </section>
+    </main>
+    <footer class="bg-tertiary px-4 pt-8 pb-10 mt-24">
+      <div
+        class="max-w-screen-xl mx-auto grid justify-center md:grid-cols-3 lg:flex lg:justify-between gap-4"
+      >
+        <a class="row-4 sm:row-1" href="/">
+          <img
+            class="block mt-6 sm:mr-6 w-60"
+            src="./assets/logotipo-protena.png"
+            alt="Logotipo da empresa Protena"
+          />
+        </a>
+        <div class="max-w-[16rem] sm:col-2">
+          <h5 class="font-secondary font-bold mb-3">Informações</h5>
+          <ul>
+            <li class="text-sm mb-1">
+              <a
+                class="hover:text-secondary hover:font-medium transition-all"
+                href="https://maps.app.goo.gl/xfip1XREF1dS9tLa8"
+                target="_blank"
+                ><b>Endereço:</b> Avenida Mato Grosso do sul, 519 - Chapadão do
+                Sul – MS</a
+              >
+            </li>
+            <li class="text-sm mb-1"><b>CNPJ:</b> 51.137.999/0001-56</li>
+          </ul>
+        </div>
+        <div class="max-w-[16rem] sm:col-2 md:col-3 mb-4">
+          <h5 class="font-secondary font-bold mb-3">Contato</h5>
+          <ul>
+            <li class="text-sm mb-1">
+              <a
+                class="flex items-center gap-1 hover:text-secondary hover:font-medium transition-all"
+                href="https://wa.me/5567999215376?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Protena%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es."
+                target="_blank"
+                ><img
+                  class="block min-w-5"
+                  src="./assets/whatsapp-icon-logo.svg"
+                />
+                +55 67 9 9921-5376</a
+              >
+            </li>
+            <li class="text-sm mb-1">
+              <a
+                class="flex items-center gap-1 hover:text-secondary hover:font-medium transition-all"
+                href="https://www.instagram.com/protenasegurancadotrabalho_sst?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                target="_blank"
+                ><img
+                  class="block min-w-5"
+                  src="./assets/instagram-icon-logo.svg"
+                />
+                @protenasegurancadotrabalho_sst</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="max-w-[16rem] sm:col-2 lg:mr-12">
+          <h5 class="font-secondary font-bold mb-3">Menu</h5>
+          <ul>
+            <li class="text-sm mb-1">
+              <a
+                class="hover:text-secondary hover:font-medium transition-all"
+                href="#hero"
+                >Início</a
+              >
+            </li>
+            <li class="text-sm mb-1">
+              <a
+                class="hover:text-secondary hover:font-medium transition-all"
+                href="#sobre-nos"
+                >Sobre nós</a
+              >
+            </li>
+            <li class="text-sm mb-1">
+              <a
+                class="hover:text-secondary hover:font-medium transition-all"
+                href="#servicos"
+                >Serviços</a
+              >
+            </li>
+            <li class="text-sm mb-1">
+              <a
+                class="hover:text-secondary hover:font-medium transition-all"
+                href="#clientes"
+                >Clientes</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/header.js"></script>
+  </body>
+</html>
